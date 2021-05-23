@@ -16,9 +16,9 @@ public class Queue
   {
       return top>rear;
   }
-    public void insert(int v)
+    public void insert(int data)
     {
-        arr[++rear]=v;
+        arr[++rear]=data;
     }
     public int remove()
     {
